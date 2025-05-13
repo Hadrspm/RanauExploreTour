@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranau Explore Tour</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Ranau Explore Tour</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#paket">Paket Wisata</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#tentang">Tentang Kami</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="banner">
+        <div class="banner-text">
+            <h2>Petualangan & Keindahan Alam Danau Ranau</h2>
+            <p>Jelajahi keindahan alam Ranau, nikmati wisata air, budaya, dan kuliner lokal</p>
+            <a href="#paket" class="btn">Lihat Paket Wisata</a>
+        </div>
+    </section>
+
+    <section id="paket" class="paket">
+        <h2>Paket Wisata Unggulan</h2>
+        <div class="paket-item">
+            <img src="images/paket1.jpg" alt="Paket 1">
+            <h3>Ranau Day Tour</h3>
+            <p>1 Hari, harga mulai Rp250.000/orang</p>
+            <a href="#" class="btn">Lihat Detail</a>
+        </div>
+        <div class="paket-item">
+            <img src="images/paket2.jpg" alt="Paket 2">
+            <h3>Adventure & Nature (2H1M)</h3>
+            <p>2 Hari 1 Malam, harga mulai Rp650.000/orang</p>
+            <a href="#" class="btn">Lihat Detail</a>
+        </div>
+        <div class="paket-item">
+            <img src="images/paket3.jpg" alt="Paket 3">
+            <h3>Custom Tour (Weekend)</h3>
+            <p>Mulai dari Rp300.000/orang</p>
+            <a href="#" class="btn">Lihat Detail</a>
+        </div>
+    </section>
+
+    <section id="galeri" class="galeri">
+        <h2>Galeri Wisata</h2>
+        <div class="image-gallery">
+            <img src="images/banner.jpg" alt="Wisata 1">
+            <img src="images/paket1.jpg" alt="Wisata 2">
+            <img src="images/paket2.jpg" alt="Wisata 3">
+        </div>
+    </section>
+
+    <section id="tentang" class="tentang">
+        <h2>Tentang Kami</h2>
+        <p>Ranau Explore Tour adalah usaha yang menyediakan pengalaman wisata alam dan petualangan di Danau Ranau. Kami mengajak Anda untuk menjelajahi keindahan alam dan budaya Ranau dengan berbagai paket wisata yang menyenangkan.</p>
+    </section>
+
+    <section id="kontak" class="kontak">
+        <h2>Kontak & Pemesanan</h2>
+        <form action="#">
+            <input type="text" placeholder="Nama" required>
+            <input type="email" placeholder="Email" required>
+            <input type="number" placeholder="Jumlah Peserta" required>
+            <textarea placeholder="Pesan atau Pertanyaan" required></textarea>
+            <button type="submit" class="btn">Kirim Pesanan</button>
+        </form>
+        <p>WhatsApp: 082297206961 | Email: ranau.explore@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ranau Explore Tour. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
